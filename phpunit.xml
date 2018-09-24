@@ -13,7 +13,7 @@
         <!-- Do not limit the amount of memory tests take to run. -->
 <!--        <ini name="memory_limit" value="-1"/>-->
         <env name="SIMPLETEST_BASE_URL" value="http://www.testdrupal.localhost"/>
-        <env name="SIMPLETEST_DB" value="mysql://root:ZhangSuning$2018@localhost/drupal_composer"/>
+        <env name="SIMPLETEST_DB" value="mysql://root:dodecafonia$2018@localhost/drupal_composer"/>
     </php>
     
     <testsuites>
