@@ -4,12 +4,37 @@
          xsi:noNamespaceSchemaLocation="http://schema.phpunit.de/4.1/phpunit.xsd"
          backupGlobals="false"
          colors="true"
-         bootstrap="vendor/autoload.php"
-         verbose="true"
-        >
+         bootstrap="./web/core/tests/bootstrap.php"
+>
+    
+    <php>
+        <!-- Set error reporting to E_ALL. -->
+<!--        <ini name="error_reporting" value="32767"/>-->
+        <!-- Do not limit the amount of memory tests take to run. -->
+<!--        <ini name="memory_limit" value="-1"/>-->
+        <env name="SIMPLETEST_BASE_URL" value="http://testdrupal.localhost"/>
+        <env name="SIMPLETEST_DB" value="mysql://root:dodecafonia@localhost/drupal_composer"/>
+    </php>
+    
     <testsuites>
-        <testsuite name="drupal-composer-project tests">
-            <directory>./web/modules/conditional_fields/tests/</directory>
+<!--        <testsuite name="conditional_fields test">
+            <directory>web/modules/conditional_fields/tests/src/FunctionalJavascript</directory>
+            <file>web/modules/conditional_fields/tests/src/FunctionalJavascript/ConditionalFieldCheckboxTest.php</file>
+        </testsuite>-->
+        
+        <testsuite name="field_example test">
+<!--            <directory>web/modules/conditional_fields/tests/src/FunctionalJavascript</directory>-->
+            <file>web/modules/examples/field_example/tests/src/Functional/TextWidgetTest.php</file>
         </testsuite>
+        
     </testsuites>
+    
 </phpunit>
+
+
+
+<!--<phpunit bootstrap="./../../../core/tests/bootstrap.php" colors="true"
+         beStrictAboutTestsThatDoNotTestAnything="true"
+         beStrictAboutOutputDuringTests="true"
+         beStrictAboutChangesToGlobalState="true"
+         printerClass="\Drupal\Tests\Listeners\HtmlOutputPrinter">-->
