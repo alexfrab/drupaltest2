@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="field_example test" tests="2" assertions="12" errors="2" failures="0" skipped="0" time="178.470935">
+    <testsuite name="Drupal\Tests\field_example\Functional\TextWidgetTest" file="C:\xampp\htdocs\drupaltest2\web\modules\examples\field_example\tests\src\Functional\TextWidgetTest.php" tests="2" assertions="12" errors="2" failures="0" skipped="0" time="178.470935">
+      <testcase name="testSingleValueField" class="Drupal\Tests\field_example\Functional\TextWidgetTest" classname="Drupal.Tests.field_example.Functional.TextWidgetTest" file="C:\xampp\htdocs\drupaltest2\web\modules\examples\field_example\tests\src\Functional\TextWidgetTest.php" line="29" assertions="6" time="91.444477">
+        <error type="Behat\Mink\Exception\ElementNotFoundException">Drupal\Tests\field_example\Functional\TextWidgetTest::testSingleValueField
+Behat\Mink\Exception\ElementNotFoundException: Button with id|name|label|value "Log in" not found.
+
+C:\xampp\htdocs\drupaltest2\web\core\tests\Drupal\Tests\WebAssert.php:76
+C:\xampp\htdocs\drupaltest2\web\core\tests\Drupal\Tests\UiHelperTrait.php:77
+C:\xampp\htdocs\drupaltest2\web\core\tests\Drupal\Tests\UiHelperTrait.php:263
+C:\xampp\htdocs\drupaltest2\web\modules\examples\field_example\tests\src\Functional\FieldExampleBrowserTestBase.php:67
+</error>
+      </testcase>
+      <testcase name="testMultiValueField" class="Drupal\Tests\field_example\Functional\TextWidgetTest" classname="Drupal.Tests.field_example.Functional.TextWidgetTest" file="C:\xampp\htdocs\drupaltest2\web\modules\examples\field_example\tests\src\Functional\TextWidgetTest.php" line="68" assertions="6" time="87.026458">
+        <error type="Behat\Mink\Exception\ElementNotFoundException">Drupal\Tests\field_example\Functional\TextWidgetTest::testMultiValueField
+Behat\Mink\Exception\ElementNotFoundException: Button with id|name|label|value "Log in" not found.
+
+C:\xampp\htdocs\drupaltest2\web\core\tests\Drupal\Tests\WebAssert.php:76
+C:\xampp\htdocs\drupaltest2\web\core\tests\Drupal\Tests\UiHelperTrait.php:77
+C:\xampp\htdocs\drupaltest2\web\core\tests\Drupal\Tests\UiHelperTrait.php:263
+C:\xampp\htdocs\drupaltest2\web\modules\examples\field_example\tests\src\Functional\FieldExampleBrowserTestBase.php:67
+</error>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testsuites>
