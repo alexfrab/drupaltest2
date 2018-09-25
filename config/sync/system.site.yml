@@ -1,6 +1,6 @@
-uuid: 7faddebc-1940-44d0-83da-3f3835803041
-name: 'Drush Site-Install'
-mail: admin@example.com
+uuid: a555521e-e70a-4f55-83de-5cfed0b01261
+name: 'Test Drupal CI'
+mail: drupaladmin@dpctest.it
 slogan: ''
 page:
   403: ''
@@ -8,7 +8,7 @@ page:
   front: /node
 admin_compact_mode: false
 weight_select_max: 100
-langcode: it
-default_langcode: it
+langcode: en
+default_langcode: en
 _core:
   default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI
