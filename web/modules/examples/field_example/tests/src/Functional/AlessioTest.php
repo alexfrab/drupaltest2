@@ -2,6 +2,8 @@
 
 namespace Drupal\Tests\field_example\Functional;
 
+use PHPUnit\Framework\TestCase;
+
 /**
  * Test base scritto da Alessio 
  *
