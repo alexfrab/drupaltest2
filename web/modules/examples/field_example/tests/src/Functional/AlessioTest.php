@@ -18,7 +18,7 @@ class AlessioTest extends TestCase {
    *
    */
   public function testNumeroUno() {
-    $assert = $this->assertSession();
+    //$assert = $this->assertSession();
 
     $this->assertEquals(1, 1);
     

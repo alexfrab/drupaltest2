@@ -24,7 +24,8 @@
         
         <testsuite name="field_example test">
 <!--            <directory>web/modules/conditional_fields/tests/src/FunctionalJavascript</directory>-->
-            <file>web/modules/examples/field_example/tests/src/Functional/TextWidgetTest.php</file>
+<!--            <file>web/modules/examples/field_example/tests/src/Functional/TextWidgetTest.php</file>-->
+            <file>web/modules/examples/field_example/tests/src/Functional/AlessioTest.php</file>
         </testsuite>
         
     </testsuites>
