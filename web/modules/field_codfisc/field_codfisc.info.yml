@@ -1,0 +1,8 @@
+name: Field Codice Fiscale
+type: module
+description: This module implement the creation of a custom field (Codice Fiscale).
+package: Custom
+core: '8.x'
+project: 'Social ProCiv Training'
+version: 1.0
+datestamp: 1538041942

@@ -1,0 +1,18 @@
+uuid: 26c6c8bc-81c0-44cf-a698-6a668b4624eb
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'Codice Fiscale Esempio'
+type: codice_fiscale_esempio
+description: 'prova di contenuto con un campo custom per la gestione di un codice fiscale'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

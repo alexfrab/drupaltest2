@@ -1,0 +1,31 @@
+<?php
+
+/**
+ * @file
+ * An example field using the Field Types API.
+ */
+
+/**
+ * @defgroup field_codfisc Example: Field Types API
+ * @ingroup custom
+ * @{
+ * Examples using Field Types API.
+ *
+ * Providing a field requires:
+ * - Defining an entity field item. Entity field items are typed data objects
+ *   containing the field values.
+ *   - Drupal\field_codfisc\Plugin\Field\FieldType\CodFiscItem
+ * - Defining a field type schema at config/schema/[module_name].schema.yml
+ *   - config/schema/field_codfisc.schema.yml
+ * - One widget specifying how the field appears in edit forms
+ *   - Drupal\field_codfisc\Plugin\Field\CodFiscWidget
+ * - One formatter specifying how the field appears in displayed
+ *   entities
+ *   - Drupal\field_codfisc\Plugin\FieldFormatter\CodFiscFormatter
+  *
+ * @see field_types
+ * @see field
+ * @see schemaapi
+ *
+ * @} End of "defgroup field_codfisc".
+ */

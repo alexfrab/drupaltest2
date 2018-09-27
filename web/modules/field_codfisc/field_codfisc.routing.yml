@@ -1,0 +1,7 @@
+# Provides a simple user interface that tells the developer where to go.
+field_codfisc.description:
+  path: '/custom/field-codfisc'
+  defaults:
+    _controller: '\Drupal\field_codfisc\Controller\FieldCodFiscController::description'
+  requirements:
+    _permission: 'access content'

@@ -1,0 +1,19 @@
+uuid: fc4ed756-a116-47e6-b7eb-c87351275bdc
+langcode: en
+status: true
+dependencies:
+  module:
+    - field_codfisc
+    - node
+id: node.field_cod_fisc
+field_name: field_cod_fisc
+entity_type: node
+type: field_codfisc
+settings: {  }
+module: field_codfisc
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,37 @@
+uuid: f7cc86c2-24ab-4ad8-a2a6-2f0e216a9819
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.codice_fiscale_esempio.body
+    - field.field.node.codice_fiscale_esempio.field_cod_fisc
+    - node.type.codice_fiscale_esempio
+  module:
+    - field_codfisc
+    - text
+    - user
+id: node.codice_fiscale_esempio.default
+targetEntityType: node
+bundle: codice_fiscale_esempio
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_cod_fisc:
+    weight: 102
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: field_codfisc_form_text
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

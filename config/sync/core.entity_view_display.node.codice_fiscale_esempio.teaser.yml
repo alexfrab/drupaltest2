@@ -1,0 +1,30 @@
+uuid: fdca9bfe-5530-424b-b980-1c08d82fd61a
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.codice_fiscale_esempio.body
+    - node.type.codice_fiscale_esempio
+  module:
+    - text
+    - user
+id: node.codice_fiscale_esempio.teaser
+targetEntityType: node
+bundle: codice_fiscale_esempio
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

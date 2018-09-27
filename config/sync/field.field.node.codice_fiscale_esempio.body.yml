@@ -1,0 +1,22 @@
+uuid: efb8e92c-50f6-43dd-8ddd-0ba70945f159
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.codice_fiscale_esempio
+  module:
+    - text
+id: node.codice_fiscale_esempio.body
+field_name: body
+entity_type: node
+bundle: codice_fiscale_esempio
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary
